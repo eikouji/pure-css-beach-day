@@ -1,0 +1,57 @@
+:root {
+    --sky-gradient: linear-gradient(
+        45deg,
+        #2f23f5,
+        #2998d1,
+        #b7f2ff,
+        #beb7ff,
+    );
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+h1, h2, h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.sky-block {
+    background: linear-gradient(21deg, 
+    rgba(235,239,241,1) 14%, 
+    rgba(156,201,232,1) 48%, 
+    rgba(10,96,198,1) 87%);
+
+    height: 40vh;
+
+}
+
+.ocean-block {
+    background: linear-gradient(
+        0deg, 
+        rgba(140,222,226,1) 20%, 
+        rgba(33,123,170,1) 58%, 
+        rgba(10,96,198,1) 87%
+        );
+    height: 30vh;
+
+}
+
+.sand-block {
+    background-color: #E1D0B4;
+    height: 30vh;
+}
+
