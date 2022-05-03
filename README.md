@@ -1,4 +1,4 @@
-# Pure CSS Beach Day #
+# Mostly CSS Beach Day #
 
 A project of my own design. No tutorials. 
 
